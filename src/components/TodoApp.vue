@@ -32,7 +32,13 @@ export default Vue.extend({
     ol {
         list-style-type: none;
     }
-    ol:hover {
+    ol li:hover{
         cursor: pointer;
+        text-decoration: line-through;
+        color: #42b983;
+    }
+    input, button {
+        border-radius: 3px;
+        border: 1px #42b983 solid;
     }
 </style>
